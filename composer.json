@@ -1,0 +1,26 @@
+{
+    "name": "lora/seafood",
+    "description": "lora package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trung Ta",
+            "email": "hi@trung.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lora\\SeaFood\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lora\\SeaFood\\SeaFoodServiceProvider"
+            ]
+        }
+    }
+}
